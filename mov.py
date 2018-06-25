@@ -20,6 +20,8 @@ pos_n = 100
 tela = pygame.display.set_mode((640, 480))
 pygame.display.set_caption('Meu primeiro programa!')
 
+# pygame.draw.circle(tela, RED, (x, y), 10, width=0)
+
 while True:
     for evento in pygame.event.get():
         pass
